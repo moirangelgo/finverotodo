@@ -5,8 +5,6 @@ FINVERO TO-DO App es una aplicación web sencilla para la gestión de tareas (To
 Permite crear nuevas tareas, marcarlas como completadas, eliminarlas y visualizarlas en una interfaz moderna y responsiva.  
 Ideal para organizar actividades personales o de equipo de manera rápida y eficiente.
 
----
-
 ## 🛠️ Tecnologías usadas
 
 ### Backend
@@ -106,10 +104,19 @@ docker-compose down
 docker-compose down -v
 ```
 
-### 6. (Opcional) Ejecutar test unitario
+### 6. (Opcional) Ejecutar pytest
 ```bash
 PYTHONPATH=./back pytest -v
 ```
+
+### 7. Configurar Glitchtip (monitoreo de errores)
+
+[Link al video (configuración de Glitchtip)](https://www.youtube.com/watch?v=CUEsmS-V4Nc?t=653)
+
+---
+
+## 📺 Demo de instalación (click en la imagen)
+[![video](https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg)](https://www.youtube.com/watch?v=CUEsmS-V4Nc)
 
 ---
 
