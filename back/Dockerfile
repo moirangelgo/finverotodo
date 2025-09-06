@@ -6,8 +6,10 @@ WORKDIR /app
 
 # Instalar dependencias del sistema
 RUN apt-get update && apt-get install -y \
-    build-essential \
+    build-essential \ 
+    curl \
     && rm -rf /var/lib/apt/lists/*
+
 
 # Copiar requirements (opcional: si usas requirements.txt)
 COPY requirements.txt .
